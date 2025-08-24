@@ -1,0 +1,77 @@
+{
+  "Parametros": {
+    "SalarioBrutoMensal": 7000.0,
+    "NumeroDependentes": 0,
+    "PensaoAlimenticia": 0.0,
+    "ValeTransporteBasePercent": 0.0,
+    "ContribuicaoSindical": 0.0,
+    "SaudeCoparticipacao": 0.0,
+    "ValeRefeicaoDesconto": 0.0,
+    "ValeAlimentacaoDesconto": 0.0,
+    "DescontosPreTributacao": [],
+    "DescontosPosTributacao": [],
+    "UsarDescontoSimplificado": true
+  },
+  "SalarioBrutoMensal": 7000.0,
+  "SalarioLiquidoMensal": 5553.87,
+  "DetalheInss": {
+    "BaseCalculo": 7000.0,
+    "ValorTotal": 789.59,
+    "Faixas": [
+      {
+        "LimiteInferior": 0.0,
+        "LimiteSuperior": 1518.00,
+        "BaseCalculo": 1518.00,
+        "Aliquota": 0.075,
+        "Valor": 113.85,
+        "ParcelaDeduzir": 0.0
+      },
+      {
+        "LimiteInferior": 1518.00,
+        "LimiteSuperior": 2793.88,
+        "BaseCalculo": 1275.88,
+        "Aliquota": 0.09,
+        "Valor": 114.83,
+        "ParcelaDeduzir": 0.0
+      },
+      {
+        "LimiteInferior": 2793.88,
+        "LimiteSuperior": 4190.83,
+        "BaseCalculo": 1396.95,
+        "Aliquota": 0.12,
+        "Valor": 167.63,
+        "ParcelaDeduzir": 0.0
+      },
+      {
+        "LimiteInferior": 4190.83,
+        "LimiteSuperior": 8157.41,
+        "BaseCalculo": 2809.17,
+        "Aliquota": 0.14,
+        "Valor": 393.28,
+        "ParcelaDeduzir": 0.0
+      }
+    ],
+    "LinkReferencia": "https://www.gov.br/inss/pt-br/servicos-do-inss/calculo-da-guia-da-previdencia-social-gps/tabela-de-contribuicao-mensal"
+  },
+  "DetalheIrrf": {
+    "BaseCalculo": 5645.61,
+    "ValorTotal": 656.54,
+    "FaixaAplicada": {
+      "LimiteInferior": 0.0,
+      "LimiteSuperior": 9999999.0,
+      "BaseCalculo": 5645.61,
+      "Aliquota": 0.275,
+      "Valor": 656.54,
+      "ParcelaDeduzir": 896.00
+    },
+    "DeducaoDependentes": 0.0,
+    "DeducaoPensaoAlimenticia": 0.0,
+    "DescontoSimplificado": 564.80,
+    "LinkReferencia": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributacao/tributacao-2024-e-2025-incidencia-mensal"
+  },
+  "BeneficiosDescontos": [],
+  "FgtsEmpregador": 560.00,
+  "TotalDescontos": 1446.13,
+  "DataCalculo": "2025-08-24T14:28:39.1643304-03:00",
+  "VersaoConfiguracao": "2025.1"
+}

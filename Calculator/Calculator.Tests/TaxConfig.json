@@ -1,0 +1,36 @@
+{
+  "inss": {
+    "teto": 8157.41,
+    "faixas": [
+      { "limite": 1518.00, "aliquota": 0.075 },
+      { "limite": 2793.88, "aliquota": 0.09 },
+      { "limite": 4190.83, "aliquota": 0.12 },
+      { "limite": 8157.41, "aliquota": 0.14 }
+    ]
+  },
+  "irrf": {
+    "usarTabelaPosAbril2025": false,
+    "descontoSimplificadoMensal": 564.80,
+    "faixas": [
+      { "limite": 2259.20, "aliquota": 0.00, "parcelaDeduzir": 0.00 },
+      { "limite": 2826.65, "aliquota": 0.075, "parcelaDeduzir": 169.44 },
+      { "limite": 3751.05, "aliquota": 0.15, "parcelaDeduzir": 381.44 },
+      { "limite": 4664.68, "aliquota": 0.225, "parcelaDeduzir": 662.77 },
+      { "limite": 9999999, "aliquota": 0.275, "parcelaDeduzir": 896.00 }
+    ],
+    "deducaoDependenteMensal": 189.59
+  },
+  "fgts": {
+    "aliquota": 0.08
+  },
+  "valeTransporte": {
+    "limiteMensal": 330.00
+  },
+  "versao": "2025.1",
+  "dataAtualizacao": "2025-01-01",
+  "fontes": {
+    "inss": "https://www.gov.br/inss/pt-br/servicos-do-inss/calculo-da-guia-da-previdencia-social-gps/tabela-de-contribuicao-mensal",
+    "irrf": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributacao/tributacao-2024-e-2025-incidencia-mensal",
+    "ajusteAbril2025": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2025/04/ajuste-na-tributacao-do-irrf"
+  }
+}
